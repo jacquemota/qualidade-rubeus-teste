@@ -32,8 +32,7 @@ O sistema exibe a mensagem “é necessário informar base legal” e impede o a
 Resultado esperado:
 Ao preencher corretamente todos os campos obrigatórios, o sistema deve permitir o avanço para a próxima etapa do fluxo de cadastro.
 
-Evidência:
-evidencias/certificacao/BR-001.png
+
 
 Página: Certificação
 BR-002 — [Login/Formulário] Mensagem de erro incorreta ao informar nome inválido
@@ -56,8 +55,7 @@ O sistema deve validar corretamente o campo Nome e exibir mensagem específica, 
 •	Caracteres especiais não permitidos
 •	Não aceitar formulário com apenas um nome
 •	Não aceitar dois espaços entre nomes
-Evidência:
-evidencias/certificacao/BR-002.png
+
 
 BR-003 — [Login/Formulário] Mensagem de erro incorreta ao informar número de celular inválido
 Tipo: Correção
@@ -78,8 +76,7 @@ O sistema deve identificar o erro no campo Telefone e apresentar mensagem espec�
 •	Telefone inválido
 •	Número incompleto
 •	Formato de telefone inválido
-Evidência:
-evidencias/certificacao/BR-003.png
+
 
 BR-004 — [Login/Formulário] Mensagem de erro incorreta ao informar e-mail inválido
 Tipo: Correção
@@ -99,8 +96,7 @@ Resultado esperado:
 O sistema deve validar corretamente o campo Email e exibir mensagem clara, por exemplo:
 •	E-mail inválido
 •	Informe um endereço de e-mail válido
-Evidência:
-evidencias/certificacao/BR-004.png
+
 
 BR-005 — [Login/Formulário] Validação genérica impede identificação do campo com erro
 Tipo: Correção
@@ -120,8 +116,7 @@ O sistema deve:
 •	identificar exatamente qual campo está inválido
 •	destacar visualmente o campo com erro
 •	exibir mensagem específica e contextualizada por campo
-Evidência:
-evidencias/certificacao/BR-005.png
+
 
 BR-006 — [Layout] Foto com enquadramento inadequado
 Tipo: Melhoria
@@ -136,8 +131,7 @@ Resultado atual:
 A imagem parece mal enquadrada em relação ao container e ao conteúdo textual ao redor.
 Resultado esperado:
 A imagem deve estar melhor centralizada e enquadrada, respeitando proporção, área visível e equilíbrio visual do bloco.
-Evidência:
-evidencias/certificacao/BR-006.png
+
 
 BR-007 — [Layout] Alinhamento inconsistente do bloco azul do formulário
 Tipo: Melhoria
@@ -152,8 +146,7 @@ Resultado atual:
 O bloco apresenta desalinhamento visual em relação ao grid da página.
 Resultado esperado:
 O bloco deve seguir alinhamento consistente com a estrutura visual da página, respeitando margens, respiros e proporção entre colunas.
-Evidência:
-evidencias/certificacao/BR-007.png
+
 
 BR-010 — [UI] Border radius do bloco azul compromete a harmonia visual
 Tipo: Melhoria
@@ -185,8 +178,7 @@ Resultado atual:
 A interface não informa claramente qual campo precisa ser corrigido nem como corrigi-lo.
 Resultado esperado:
 Cada campo inválido deve apresentar feedback contextual próximo ao input correspondente, com instrução objetiva de correção.
-Evidência:
-evidencias/certificacao/BR-009.png
+
 
 BR-009 — [Certificação] Inconsistência de conteúdo entre título e seção
 
@@ -219,6 +211,169 @@ requisitos
 
 etapas
 
-Evidência:
-evidencias/certificacao/BR-009.png
+
+BR-011 — [Rodapé / Outros Cursos] Inconsistência no texto do botão do card
+
+Tipo: Correção
+Classificação: Usabilidade
+Prioridade: Média
+
+Descrição:
+O primeiro card apresenta o botão "Saiba", enquanto os outros cards utilizam "Saiba mais". Isso cria inconsistência de interface e quebra o padrão visual da seção.
+
+Interfaces consistentes facilitam a leitura e reduzem a carga cognitiva do usuário.
+
+Passos para reproduzir
+
+Acessar a seção Outros Cursos
+
+Observar os três cards apresentados
+
+Resultado atual
+
+Card 1 → "Saiba"
+
+Card 2 → "Saiba mais"
+
+Card 3 → "Saiba mais"
+
+Resultado esperado
+
+Todos os cards devem utilizar o mesmo padrão de texto, preferencialmente:
+
+"Saiba mais"
+
+BR-013 — [Outros Cursos] Alinhamento inconsistente entre imagem e conteúdo do card
+
+Tipo: Melhoria
+Classificação: Usabilidade
+Prioridade: Baixa
+
+Descrição
+
+A área de imagem e a área inferior do card possuem cortes visuais diferentes, criando a sensação de desalinhamento entre as seções do componente.
+
+Isso pode ser causado por:
+
+diferença de padding
+
+diferença de altura das imagens
+
+overlay mal aplicado
+
+Passos para reproduzir
+
+Acessar a seção Outros Cursos
+
+Comparar visualmente os três cards
+
+Resultado atual
+
+Os cards apresentam leve inconsistência entre:
+
+altura das imagens
+
+alinhamento da área inferior azul
+
+Resultado esperado
+
+Todos os cards devem possuir:
+
+mesma altura de imagem
+
+alinhamento uniforme entre imagem e área inferior
+
+BR-012 — [Outros Cursos] Sombreamento inconsistente entre os cards
+
+Tipo: Melhoria
+Classificação: Desejabilidade
+Prioridade: Baixa
+
+Descrição
+
+Os cards possuem sombra aplicada, porém a intensidade do sombreamento cria um leve efeito de profundidade irregular na interface.
+
+Isso pode gerar sensação de desalinhamento ou inconsistência entre os componentes.
+
+Passos para reproduzir
+
+Acessar a seção Outros Cursos
+
+Comparar visualmente as sombras dos três cards
+
+Resultado atual
+
+As sombras apresentam percepção visual levemente irregular.
+
+Resultado esperado
+
+Utilizar um único padrão de sombra para todos os cards, garantindo consistência visual.
+
+BR-015 — [Outros Cursos] Overlay escuro da imagem reduz contraste do conteúdo
+
+Tipo: Melhoria
+Classificação: Usabilidade
+Prioridade: Baixa
+
+Descrição
+
+As imagens dos cursos possuem um overlay escuro aplicado, porém em alguns casos o contraste pode prejudicar a visibilidade do texto.
+
+Isso ocorre porque:
+
+cada imagem possui luminosidade diferente
+
+o overlay possui opacidade fixa
+
+Passos para reproduzir
+
+Acessar a seção Outros Cursos
+
+Observar contraste entre texto e imagem
+
+Resultado atual
+
+Alguns cards apresentam contraste menor entre texto e imagem.
+
+Resultado esperado
+
+Aplicar um overlay com opacidade ajustada ou um gradiente mais consistente para garantir legibilidade.
+
+BR-014 — [Rodapé] Desbalanceamento visual entre logotipo e ícones sociais
+
+Tipo: Melhoria
+Classificação: Desejabilidade
+Prioridade: Baixa
+
+Descrição
+
+No rodapé da página existe um desequilíbrio visual entre:
+
+logotipo posicionado à esquerda
+
+ícones de redes sociais posicionados à direita
+
+O espaçamento entre esses elementos cria uma grande área vazia no centro da tela.
+
+Isso pode transmitir sensação de layout incompleto.
+
+Passos para reproduzir
+
+Acessar o rodapé da página
+
+Observar distribuição dos elementos
+
+Resultado atual
+
+Grande espaço vazio entre logotipo e ícones sociais.
+
+Resultado esperado
+
+Melhor distribuição dos elementos, por exemplo:
+
+centralizar conteúdo
+
+adicionar links institucionais
+
+equilibrar grid do rodapé
 
