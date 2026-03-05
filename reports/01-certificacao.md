@@ -155,7 +155,7 @@ O bloco deve seguir alinhamento consistente com a estrutura visual da página, r
 Evidência:
 evidencias/certificacao/BR-007.png
 
-BR-008 — [UI] Border radius do bloco azul compromete a harmonia visual
+BR-010 — [UI] Border radius do bloco azul compromete a harmonia visual
 Tipo: Melhoria
 Classificação: Desejabilidade
 Prioridade: Baixa
@@ -185,6 +185,40 @@ Resultado atual:
 A interface não informa claramente qual campo precisa ser corrigido nem como corrigi-lo.
 Resultado esperado:
 Cada campo inválido deve apresentar feedback contextual próximo ao input correspondente, com instrução objetiva de correção.
+Evidência:
+evidencias/certificacao/BR-009.png
+
+BR-009 — [Certificação] Inconsistência de conteúdo entre título e seção
+
+Tipo: Melhoria
+Classificação: Usabilidade
+Prioridade: Baixa
+
+Descrição:
+O botão “Quero me certificar” aparece em destaque na área superior, porém a seção abaixo não apresenta conteúdo que explique claramente o processo ou benefícios da certificação.
+
+Isso cria uma quebra na jornada do usuário.
+
+Passos para reproduzir:
+
+Acessar a página inicial da certificação
+
+Observar o botão de chamada para ação (CTA)
+
+Resultado atual:
+O botão direciona para ação sem contexto suficiente.
+
+Resultado esperado:
+A seção deve explicar:
+
+o que é a certificação
+
+benefícios
+
+requisitos
+
+etapas
+
 Evidência:
 evidencias/certificacao/BR-009.png
 
