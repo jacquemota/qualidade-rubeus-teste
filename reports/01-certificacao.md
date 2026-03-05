@@ -377,3 +377,46 @@ adicionar links institucionais
 
 equilibrar grid do rodapé
 
+BR-016 — [Certificação] Botões com mesmo CTA direcionam para páginas diferentes
+
+Tipo: Correção
+Classificação: Usabilidade
+Prioridade: Média
+
+Descrição:
+Existem dois botões com o mesmo texto “Quero me certificar” na página, porém cada um direciona o usuário para destinos diferentes.
+
+Isso cria inconsistência na navegação e pode gerar confusão no fluxo do usuário, pois ações iguais devem possuir comportamento igual.
+
+Interfaces previsíveis são fundamentais para uma boa experiência do usuário.
+
+Passos para reproduzir:
+
+Acessar a página principal do site
+
+Localizar o botão “Quero me certificar” no topo da página
+
+Clicar no botão
+
+Retornar à página anterior
+
+Localizar outro botão “Quero me certificar” em outra seção da página
+
+Clicar no botão
+
+Resultado atual:
+Os botões com o mesmo texto direcionam para páginas diferentes.
+
+Resultado esperado:
+
+Uma das opções deve ser aplicada:
+
+ambos os botões direcionarem para a mesma página, ou
+
+utilizar textos diferentes para cada ação, caso os destinos sejam distintos.
+
+Exemplo:
+
+"Quero me certificar"
+
+"Saiba mais sobre certificação"
