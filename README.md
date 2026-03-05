@@ -1,4 +1,11 @@
-# Processo Seletivo Qualidade Rubeus — Relatório de Itens
+# Relatórios de Bugs
+
+Esta pasta contém os relatórios detalhados dos problemas encontrados durante a análise das páginas.
+
+Arquivos:
+
+01-certificacao.md → bugs encontrados na página de certificação  
+02-site.md → bugs encontrados no site institucional
 
 Este repositório contém a documentação dos itens identificados no teste prático de qualidade, incluindo:
 - Relatórios por página (Certificação e Site)
