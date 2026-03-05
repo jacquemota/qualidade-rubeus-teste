@@ -324,3 +324,53 @@ Espaçamento inconsistente entre os elementos do card.
 Resultado esperado
 
 Padronizar espaçamentos utilizando grid consistente.
+
+BR-012 — [Rodapé] Inconsistência entre ícones e texto das redes sociais
+
+Tipo: Melhoria
+Classificação: Usabilidade
+Prioridade: Baixa
+
+Descrição:
+Na parte superior do rodapé, os ícones das redes sociais são apresentados como ícones grandes centralizados, enquanto na seção UNIEXEMPLO Social os mesmos canais aparecem em formato textual menor.
+
+Essa duplicação cria inconsistência visual e pode gerar confusão sobre qual elemento deve ser utilizado.
+
+Passos para reproduzir
+
+Acessar o rodapé da página
+
+Observar a seção de redes sociais
+
+Resultado atual
+
+Existem dois formatos diferentes para representar as redes sociais.
+
+Resultado esperado
+
+Utilizar apenas um padrão consistente para representar as redes sociais.
+
+BR-013 — [Rodapé] Espaçamento excessivo entre elementos da seção de redes sociais
+
+Tipo: Melhoria
+Classificação: Desejabilidade
+Prioridade: Baixa
+
+Descrição:
+Os ícones das redes sociais apresentam grande espaçamento horizontal entre os elementos.
+
+Isso gera áreas vazias extensas e reduz a eficiência do uso do espaço na interface.
+
+Passos para reproduzir
+
+Acessar a área superior do rodapé
+
+Observar o espaçamento entre os ícones das redes sociais
+
+Resultado atual
+
+Grande espaço vazio entre os ícones.
+
+Resultado esperado
+
+Reduzir espaçamento para melhorar equilíbrio visual.
